@@ -2,3 +2,5 @@ java
 Python
 Manual testing
 Automation testing
+html
+javascript

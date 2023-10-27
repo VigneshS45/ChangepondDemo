@@ -1,0 +1,148 @@
+<center>
+    <h3>HTML FORM CONTROL DEMO</h3>
+    </center>
+
+    <form name="Registration_frm">
+    <table border="1" cellspacing="0" align="center" width="50%">
+        <tr>
+            <th>
+                <label for="">Username</label>
+            </th>
+            <td>
+                <input type="text" id="Username"
+                placeholder="Username" maxlength="15" autofocus required/>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Password</label>
+            </th>
+            <td>
+                <input type="password" id="UserPass"   placeholder="Enter Your Password" maxlength="15" autofocus required/>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Email</label>
+            </th>
+            <td>
+                <input type="email" placeholder="Enter email" maxlength="15" autofocus required/>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Mobile</label>
+            </th>
+            <td>
+                <input type="number" id="MobileNo"   placeholder="Enter Your Mobile no" min="90000000000" max="9999999999"/>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Address</label>
+            </th>
+            <td>
+                <textarea id="Address" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Gender</label>
+            </th>
+            <td>
+                <input type="radio" name="Gender" id="Gender"/>Male
+                <input type="radio" name="Gender" id="Gender"/>Female
+                <input type="radio" name="Gender" id="Gender"/>Prefer Not to say
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Education</label>
+            </th>
+            <td>
+                <input type="checkbox" id="checkbox" name="Edu"/>Bachelors
+                <input type="checkbox" id="checkbox" name="Edu"/>Masters
+                <input type="checkbox" id="checkbox" name="Edu"/>Doctrate
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Country</label>
+            </th>
+            <td>
+                <select name="Country" id="country">
+                    <option>India</option>
+                    <option >Japan</option>
+                    <option selected>Pakistan</option>
+                    <option>USA</option>
+                </select>
+                
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Hobbies</label>
+            </th>
+            <td>
+                <select multiple id="country">
+                    <option>Sports</option>
+                    <option >Music</option>
+                    <option >Chit CHat</option>
+                    <option>Dance</option>
+                </select>
+                
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Income Range</label>
+            </th>
+            <td>
+              20000<input type="range" min="20000" max="200000"/>200000
+              
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Profile Photo</label>
+            </th>
+            <td>
+              <input type="file"/>
+              
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Favourite Song</label>
+            </th>
+            <td>
+              <audio controls src="./Images/Audio/iphone_14.mp3"> your browser didn't support this audio</audio>
+              
+        </tr>
+
+        <tr>
+            <th>
+                <label for="">Favourite Video</label>
+            </th>
+            <td>
+              <video controls src="./Images/Video/Demon_Slayer.mp4" height="200" ></video>
+              
+        </tr>
+
+        <tr>
+            <td>
+                <button type="submit"> Register</button>
+            </td>
+
+            <td>
+                <button type="reset">Clear form</button>
+            </td>
+        </tr>
+    </table>
+    </form>

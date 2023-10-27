@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            
+            .grid-container {
+  display: grid;
+  height: 750px;
+
+  width: 600px;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr 100px; 
+  padding: 10px;
+  gap: 0.5rem;
+  border-radius: 10px;
+}
+
+.header {
+    background-color: green;
+text-align: center;
+  grid-column: 1/ 4;
+  grid-row: 1/2; 
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.sidebar {
+    background-color: blue;
+    text-align: center;
+  grid-column: 1/2;
+  grid-row:2/4; 
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.nav {
+    background-color: violet;
+    text-align: center;
+  grid-column:2/4;
+  grid-row: 2/3;
+  border-radius: 10px;
+  padding-top: 10px;
+   
+}
+
+.article {
+    background-color: blueviolet;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  border-radius: 10px;
+}
+
+.footer {
+    background-color: darkgray;
+    text-align: center;
+  grid-column: 1 /4; 
+  grid-row: 4/5;
+  border-radius: 10px;
+  padding-top: 10px;
+  
+}
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="header" style="color: white;">Header </div>
+            <div style="color: white;" class="sidebar">Sidebar </div>
+            <div style="color: white;" class="nav">Nav </div>
+            <div style="color: white;" class="article">
+                <center><h3>Article </h3></center>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quidem voluptate perferendis earum numquam cum illo quisquam distinctio assumenda sapiente eaque praesentium, et consectetur excepturi vitae? Ratione eligendi necessitatibus at.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique temporibus aperiam maiores accusamus laudantium error dolorum! Voluptatibus odio reiciendis ex! Provident quaerat eos doloribus possimus maiores quidem magni, qui tenetur?</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel nostrum amet iste distinctio, dolore esse perspiciatis ratione atque fugiat. Esse omnis est eligendi et adipisci natus cupiditate earum, maiores odio.</p>
+           </div>
+            <div style="color: white;" class="footer">Footer </div>
+        </div>
+          
+          </body>
+    </body>
+</html>

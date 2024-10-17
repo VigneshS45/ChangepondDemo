@@ -1,0 +1,12 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "SCRUM"
+       },
+       "summary": "order button not working.",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}

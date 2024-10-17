@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  
+  <test thread-count="5" parallel="tests" name="chromeTest">
+   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testRunner.Runner"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" parallel="tests" name="edgeTest">
+   <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="testRunner.Runner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
